@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, Button, TextInput } from 'react-native';
-
+//Appointment booking screen
 export default function AppointmentScreen({ route }) {
   const { doctor } = route.params;
   const [name, setName] = useState('');
