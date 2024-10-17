@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { View, Text, FlatList, TouchableOpacity } from 'react-native';
-
+//list of doctors//
 const doctors = [
   { id: 1, name: 'Dr. Smith', specialty: 'Cardiologist' },
   { id: 2, name: 'Dr. Johnson', specialty: 'Pediatrician' },
